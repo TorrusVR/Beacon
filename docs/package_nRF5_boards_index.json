@@ -2,9 +2,9 @@
   "packages": [
     {
       "name": "torrusvr",
-      "maintainer": "Sandeep Mistry",
-      "websiteURL": "https://github.com/sandeepmistry/arduino-nRF5",
-      "email": "sandeep.mistry@gmail.com",
+      "maintainer": "Jules Thuillier",
+      "websiteURL": "http://torrusvr.com",
+      "email": "jules@vrtracker.xyz",
       "help": {
         "online": "https://github.com/TorrusVR/Beacon/issues"
       },
@@ -18,7 +18,7 @@
             "online": "https://github.com/TorrusVR/Beacon/issues"
           },
           "url": "https://github.com/TorrusVR/Beacon/archive/0.5.0.tar.gz",
-          "archiveFileName": "TorrusVR-0.5.0.tar.gz",
+          "archiveFileName": "Beacon-0.5.0.tar.gz",
           "checksum": "MD5:173FF366636D65DB03BBD6EAC612D4CB",
           "size": "573440",
           "boards": [
