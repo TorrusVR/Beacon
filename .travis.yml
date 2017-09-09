@@ -12,7 +12,7 @@ before_install:
   - tar xf arduino-$IDE_VERSION-linux64.tar.xz
   - mv arduino-$IDE_VERSION $HOME/arduino-ide
   - export PATH=$PATH:$HOME/arduino-ide
-  - arduino --pref "boardsmanager.additional.urls=https://sandeepmistry.github.io/arduino-nRF5/package_nRF5_boards_index.json" --install-boards sandeepmistry:nRF5 > /dev/null
+  - arduino --pref "boardsmanager.additional.urls=https://github.com/TorrusVR/Beacon/package_nRF5_boards_index.json" --install-boards sandeepmistry:nRF5 > /dev/null
   - buildExampleSketch() { arduino --verbose-build --verify --board $1 $HOME/arduino-ide/examples/$2/$3/$3.ino; }
 install:
   - mkdir -p $HOME/Arduino/hardware/sandeepmistry
