@@ -22,6 +22,9 @@
           "checksum": "MD5:173FF366636D65DB03BBD6EAC612D4CB",
           "size": "573440",
           "boards": [
+            {"name": "Torrus nRF52832" },
+            {"name": "nRF52840 DK" },
+            {"name": "SparkFun nRF52832 Breakout Board" },
             {"name": "BBC micro:bit"},
             {"name": "Bluz DK"},
             {"name": "Electronut labs bluey"},
