@@ -19,7 +19,7 @@
           },
           "url": "https://github.com/TorrusVR/Beacon/archive/0.5.0.tar.gz",
           "archiveFileName": "TorrusVR-0.5.0.tar.gz",
-          "checksum": "MD5:E82DA39642AB48492A9FEDE8159871F5",
+          "checksum": "MD5:173FF366636D65DB03BBD6EAC612D4CB",
           "size": "573440",
           "boards": [
             {"name": "BBC micro:bit"},
