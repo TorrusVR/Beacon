@@ -54,6 +54,11 @@
               "packager": "torrusvr",
               "name": "openocd",
               "version": "0.10.0-dev.nrf5"
+            },
+            {
+              "packager": "torrusvr", 
+              "name": "nrfutil",
+              "version": "0.5.2-SFE"
             }
           ]
         }

@@ -21,6 +21,11 @@ menu.version=Version
 menu.lfclk=Low Frequency Clock
 menu.board_variant=Board Variant
 
+# Torrus nRF52 Variant
+TorrusNRF52.name=Torrus nRF52832#TorrusNRF52.upload.tool=sandeepmistry:openocd
+TorrusNRF52.upload.tool=nrfutilTorrusNRF52.upload.protocol=TorrusNRF52.upload.interface=TorrusNRF52.upload.target=TorrusNRF52.upload.speed=38400TorrusNRF52.upload.maximum_size=524288TorrusNRF52.upload.use_1200bps_touch=falseTorrusNRF52.upload.wait_for_upload_port=falseTorrusNRF52.upload.native_usb=falseTorrusNRF52.bootloader.tool=sandeepmistry:openocdTorrusNRF52.build.mcu=cortex-m4TorrusNRF52.build.f_cpu=16000000TorrusNRF52.build.board=NRF52_DKTorrusNRF52.build.core=nRF5TorrusNRF52.build.variant=Torrus_nRF52
+TorrusNRF52.build.variant_system_lib=TorrusNRF52.build.extra_flags=-DNRF52TorrusNRF52.build.float_flags=-mfloat-abi=hard -mfpu=fpv4-sp-d16TorrusNRF52.build.ldscript=nrf52_xxaa.ldTorrusNRF52.menu.softdevice.s132=S132TorrusNRF52.menu.softdevice.s132.softdevice=s132TorrusNRF52.menu.softdevice.s132.softdeviceversion=2.0.1TorrusNRF52.menu.softdevice.s132.upload.maximum_size=409600TorrusNRF52.menu.softdevice.s132.build.extra_flags=-DNRF52 -DS132 -DNRF51_S132TorrusNRF52.menu.softdevice.s132.build.ldscript=armgcc_s132_nrf52832_xxaa.ldTorrusNRF52.menu.lfclk.lfxo=Crystal OscillatorTorrusNRF52.menu.lfclk.lfxo.build.lfclk_flags=-DUSE_LFXOTorrusNRF52.menu.lfclk.lfrc=RC OscillatorTorrusNRF52.menu.lfclk.lfrc.build.lfclk_flags=-DUSE_LFRCTorrusNRF52.menu.lfclk.lfsynt=SynthesizedTorrusNRF52.menu.lfclk.lfsynt.build.lfclk_flags=-DUSE_LFSYNT
+
 # nRF52832 variants
 ###################
 
@@ -809,8 +814,3 @@ nRF52840DK.menu.lfclk.lfrc=RC Oscillator
 nRF52840DK.menu.lfclk.lfrc.build.lfclk_flags=-DUSE_LFRC
 nRF52840DK.menu.lfclk.lfsynt=Synthesized
 nRF52840DK.menu.lfclk.lfsynt.build.lfclk_flags=-DUSE_LFSYNT
-
-
-# Torrus nRF52 Variant
-TorrusNRF52.name=Torrus nRF52832TorrusNRF52.upload.tool=nrfutilTorrusNRF52.upload.protocol=TorrusNRF52.upload.interface=TorrusNRF52.upload.target=TorrusNRF52.upload.speed=38400TorrusNRF52.upload.maximum_size=524288TorrusNRF52.upload.use_1200bps_touch=falseTorrusNRF52.upload.wait_for_upload_port=falseTorrusNRF52.upload.native_usb=falseTorrusNRF52.bootloader.tool=openocdTorrusNRF52.build.mcu=cortex-m4TorrusNRF52.build.f_cpu=16000000TorrusNRF52.build.board=NRF52_DKTorrusNRF52.build.core=nRF5TorrusNRF52.build.variant=Torrus_nRF52
-TorrusNRF52.build.variant_system_lib=TorrusNRF52.build.extra_flags=-DNRF52TorrusNRF52.build.float_flags=-mfloat-abi=hard -mfpu=fpv4-sp-d16TorrusNRF52.build.ldscript=nrf52_xxaa.ldTorrusNRF52.menu.softdevice.s132=S132TorrusNRF52.menu.softdevice.s132.softdevice=s132TorrusNRF52.menu.softdevice.s132.softdeviceversion=2.0.1TorrusNRF52.menu.softdevice.s132.upload.maximum_size=409600TorrusNRF52.menu.softdevice.s132.build.extra_flags=-DNRF52 -DS132 -DNRF51_S132TorrusNRF52.menu.softdevice.s132.build.ldscript=armgcc_s132_nrf52832_xxaa.ldTorrusNRF52.menu.lfclk.lfxo=Crystal OscillatorTorrusNRF52.menu.lfclk.lfxo.build.lfclk_flags=-DUSE_LFXOTorrusNRF52.menu.lfclk.lfrc=RC OscillatorTorrusNRF52.menu.lfclk.lfrc.build.lfclk_flags=-DUSE_LFRCTorrusNRF52.menu.lfclk.lfsynt=SynthesizedTorrusNRF52.menu.lfclk.lfsynt.build.lfclk_flags=-DUSE_LFSYNT
